@@ -1,29 +1,54 @@
-html{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+	--color1: #0c4797;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
 }
 *,
 *::after,
-*::before{
-    box-sizing: border-box;
+*::before {
+	box-sizing: border-box;
 }
-.header {
+/* ебать я насрал */
+a {
+	text-decoration: none;
+	color: inherit !important;
 }
+
+li {
+	list-style-type: none;
+}
+
 .container {
-    max-width: 1230px;
-    padding: 0 15px;
-    margin: 0 auto;
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
 }
+
 .header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 25px;
 }
-.logo__link {
-}
-.logo {
-}
-.menu {
-}
-.menu__list {
-}
+
 .menu__item {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.06px;
+	color: var(--color1);
 }
-.menu__link {
+
+.logo {
+	clip-path: circle(100px);
+}
+
+.menu__list {
+	display: flex;
+	gap: 0 25px;
 }
