@@ -80,7 +80,9 @@ body {
 	align-items: center;
 	padding-top: 10px;
 }
-
+.menu{
+	margin-left: 100px;
+}
 .menu__link {
 	font-size: 18px;
 	line-height: 24px;
@@ -88,7 +90,7 @@ body {
 	color: var(--color1);
 	transition: all 0.5s;
 }
-.menu__item:hover {
+.menu__link:hover {
 	color: var(--color1Hover);
 }
 .logo {
