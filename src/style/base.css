@@ -117,49 +117,55 @@ body {
 .controls__link:hover {
 	color: var(--color1Hover);
 }
-
-.promo-box {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+/* Секция промо */
+.promo {
+	padding-top: 50px;
 }
-
+/* Welcome */
+.promo__text {
+	font-size: 22px;
+	line-height: 28px;
+	color: var(--color1Hover);
+	font-family: "Audiowide-Regular";
+	text-align: center;
+	margin-bottom: 5px;
+}
 .promo__title {
 	color: var(--color1);
-	font-size: 60px;
-	padding-bottom: 30px;
+	font-size: 68px;
 	font-weight: 400;
 	letter-spacing: 0.1rem;
-	line-height: 30px;
+	line-height: 68px;
 	font-family: "Audiowide-Regular";
-	position: relative;
+	text-align: center;
 }
-
-.span_promo {
+.auto-type {
+}
+/* Разделение блоков promo__descr и promo__img по краям сайта */
+.promo__inner {
+	display: flex;
+	gap: 0 130px;
+	align-items: center;
+	margin-top: 50px;
+}
+.promo__descr {
+	flex-basis: 500px;
+}
+.span__promo{
 	color: var(--color1);
-}
-
-.span_promo:hover {
-	color: #a554a5;
 	transition: all 0.5s;
 }
-
-.promo {
-	padding-top: 150px;
+.span__promo:hover{
+	color: var(--color1Hover);
 }
-
-.desc_item {
+.promo__img{
+	flex-basis: 570px;
+}
+.desc__item {
 	color: #fff;
-	max-width: 700px;
 	font-size: 22px;
 	letter-spacing: 0.05rem;
-	padding-top: 16px;
 }
-
-.promo_box-inside {
-	display: flex;
-}
-
-.desc_box {
-	padding-right: 130px;
+.desc__item + .desc__item{
+	margin-top: 16px;
 }
