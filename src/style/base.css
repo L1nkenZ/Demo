@@ -88,7 +88,7 @@ body {
 	color: var(--color1);
 	transition: all 0.5s;
 }
-.menu__item:hover {
+.menu__link:hover {
 	color: var(--color1Hover);
 }
 .logo {
@@ -124,7 +124,7 @@ body {
 
 .promo__title {
 	color: var(--color1);
-	font-size: 68px;
+	font-size: 60px;
 	padding-bottom: 30px;
 	font-weight: 400;
 	letter-spacing: 0.1rem;
@@ -142,14 +142,22 @@ body {
 	transition: all 0.5s;
 }
 
-.desc {
-	color: #fff;
-	max-width: 450px;
-	font-size: 22px;
-	align-items: center;
-	letter-spacing: 0.05rem;
-}
-
 .promo {
 	padding-top: 150px;
+}
+
+.desc_item {
+	color: #fff;
+	max-width: 700px;
+	font-size: 22px;
+	letter-spacing: 0.05rem;
+	padding-top: 16px;
+}
+
+.promo_box-inside {
+	display: flex;
+}
+
+.desc_box {
+	padding-right: 130px;
 }
