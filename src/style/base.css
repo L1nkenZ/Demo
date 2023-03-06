@@ -263,7 +263,7 @@ html.is-changing .transition-fade {
 .card-box {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 100px;
+	grid-gap: 200px;
 }
 
 figure {
@@ -283,6 +283,7 @@ figure figcaption {
 	font-size: 2.3rem;
 	font-weight: bold;
 	padding: 0.75rem;
+	font: ;
 	background: var(--c, #0009);
 	clip-path: inset(0 var(--_i, 100%) 0 0);
 	-webkit-mask: linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
@@ -296,7 +297,6 @@ figure:hover img {
 }
 @supports not (-webkit-mask-clip: text) {
 	figure figcaption {
-		-webkit-mask: none;
 		color: #fff;
 	}
 }
