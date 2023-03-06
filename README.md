@@ -1,7 +1,7 @@
 **DEMO PROJECT (ДОКУМЕНТАЦИЯ МОЖЕТ МЕНЯТЬСЯ ЕЩЕ ТРИЛИАРДЫ РАЗ)**
 * Зависимости для понимания и напоминания 
-- Typed.js
-- Swup
+- Typed.js (https://github.com/mattboldt/typed.js/)
+- Swup (https://swup.js.org/getting-started)
 
 **ГАЙД КАК ЮЗАТЬ И ПРИМЕНЯТЬ СТИЛЬ ДЛЯ SWUP**
 - сначала подключаем файл main.js и сам скрипт
