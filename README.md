@@ -1,4 +1,5 @@
-**DEMO PROJECT (ДОКУМЕНТАЦИЯ МОЖЕТ МЕНЯТЬСЯ ЕЩЕ ТРИЛИАРДЫ РАЗ)**
+**DEMO PROJECT (ДОКУМЕНТАЦИЯ МОЖЕТ МЕНЯТЬСЯ ЕЩЕ ТРИЛИАРДЫ РАЗ)**\
+**ОБЯЗАТЕЛЬНО К ОЗНАКОМЛЕНИЮ ДАННАЯ ИНФОРМАЦИЯ**
 * Зависимости для понимания и напоминания 
 - Typed.js (https://github.com/mattboldt/typed.js/)
 - Swup (https://swup.js.org/getting-started)
